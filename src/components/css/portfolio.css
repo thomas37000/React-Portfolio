@@ -1,10 +1,11 @@
 * {
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
-	outline: none;
-	text-decoration: none;
-	transition: all .2s ease 0s;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+  transition: all 0.2s ease 0s;
 }
+
 
 html::before {
     content:"";
@@ -71,12 +72,12 @@ button {
 }
 
 .pink-bg {
-  background-color: #7ACD66;
+  background-color: #7acd66;
   opacity: 0.9;
 }
 
 .pink-text {
-  color: #7ACD66;
+  color: #7acd66;
 }
 
 .purple-text {
@@ -91,12 +92,14 @@ button {
   word-spacing: 4px;
 }
 
-.description>h2 {
+
+.description > h2 {
   color: #ffffff;
 }
 
 .description p {
-  text-align: left;
+  width: 60%;
+  text-align: center;
 }
 
 .desktop {
@@ -142,13 +145,6 @@ button {
   padding: 0;
 }
 
-.heading {
-  /* margin-top: 30px; */
-  color: #fff;
-  background: #7ACD66;
-  padding: 10px;
-}
-
 .contents {
   display: flex;
   flex-wrap: wrap;
@@ -179,6 +175,15 @@ img {
   max-width: 100%;
 }
 
+.githubLinks {
+  padding: 1rem;
+}
+
+.github {
+  width: auto;
+  height: 50px;
+}
+
 .scrum, .back {
   max-width: 40%;
 }
@@ -189,6 +194,18 @@ img {
 
 .heading {
   text-align: center;
+  background-color: #7acd66;
+  color: #fff;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.heading p {
+  color: #000;
+}
+
+.buttonCv {
+  display: none;
 }
 
 p {
@@ -203,7 +220,10 @@ input {
 }
 
 @media screen and (min-width: 200px) and (max-width: 700px) {
-  .desktopImg, #responsiveImg {
+
+  .desktopImg,
+  #responsiveImg,
+  .presentation {
     display: none;
   }
 
@@ -218,4 +238,24 @@ input {
   .box {
     width: auto;
   }
+  
+  .cv {
+    width: 100%;
+    border: none;
+    background-color: red;
+  }
+
+  .buttonCv {
+    font-weight: bold;
+    background-color: #7acd66;
+    color: white !important;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    padding: 18px 50px;
+    border-radius: 10px;
+    display: inline-block;
+  }
+  
 }
+
+

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./css/map.css";
+import "./map.css";
 import L from "leaflet";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 
@@ -17,7 +17,8 @@ class Maps extends Component {
       Maps: [],
       lat: 47.2074145,
       lng: -1.5558651,
-      zoom: 14,
+      zoom: 15,
+
     };
   }
 

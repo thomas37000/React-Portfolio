@@ -3,7 +3,7 @@ import wan from "./image/wan.jpg";
 
 const Projects = () => {
   return (
-    <section className="projects">
+    <section className="projects" id="ancreProjects">
       <div className="heading">
         <h2>Mes travaux récents</h2>
         <p>
@@ -17,7 +17,7 @@ const Projects = () => {
           <img src={wan} alt="women@nantes" />
           <h3>Projet 3 (en cours)</h3>
           <p>
-            Créer une application pour l' association Women@Nantes, en équipe.
+            Création une application pour l' association Women@Nantes, en équipe.
           </p>
           <p>
             <a
@@ -37,7 +37,7 @@ const Projects = () => {
           <h3>Projet 2</h3>
 
           <p>
-            Créer un site sur React en équipe du type application qui permet de
+            Création un site sur React en équipe du type application qui permet de
             voir quels événements ont lieu selon la date. Nous avons importer{" "}
             <a
               className="disabled"
@@ -74,7 +74,7 @@ const Projects = () => {
             alt="logo-entreprise"
           />
           <h3>Projet 1</h3>
-          <p>Créer un site en Html / Css / Js en équipe.</p>
+          <p>Création un site en Html / Css / Js en équipe.</p>
           <p>
             <a
               className="disabled"

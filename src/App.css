@@ -7,6 +7,15 @@
   pointer-events: none;
 }
 
+
+.links  {
+  list-style-type: none;
+}
+
+.links a {
+  color: #fff;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -17,7 +26,7 @@
   background-color: #282c34;
   min-height: 5vh;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   font-size: calc(10px + 2vmin);
   color: white;
@@ -33,6 +42,10 @@
   color: white;
 }
 
+.App-footer a {
+  color: #fff;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -41,3 +54,10 @@
     transform: rotate(360deg);
   }
 }
+
+@media screen and (min-width: 200px) and (max-width: 700px) {
+  .présentation {
+    display: none;
+  }
+}
+

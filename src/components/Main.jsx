@@ -1,10 +1,11 @@
 import React from "react";
 import { TinyButton as ScrollUpButton } from "react-scroll-up-button";
 import "./css/portfolio.css";
-import Map from "./Map";
+// import Map from "./Map";
 import Skills from "./Skills";
 import Projects from "./Projects";
 import Presentation from "./Presentation";
+import Cv from "./doc/Thomas Chalanson Cv.pdf";
 
 const Main = () => {
   return (
@@ -13,7 +14,12 @@ const Main = () => {
         <Presentation />
         <Skills />
         <Projects />
-        <Map />
+        
+        <h2 id="ancreCv">Mon CV</h2>
+        <iframe title="cv" src={Cv} width="60%" height="600px" className="cv"></iframe>
+        {/* <a href="Thomas Chalanson Cv.pdf" download="Thomas Chalanson Cv.pdf" target="blank" class="buttonCv">Télécharger mon CV</a> */}
+
+
         <ScrollUpButton
           style={{
             backgroundColor: "none",
