@@ -1,23 +1,23 @@
 * {
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
-	outline: none;
-	text-decoration: none;
-	transition: all .2s ease 0s;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+  transition: all 0.2s ease 0s;
 }
 
 html::before {
-    content:"";
-    display:block;
-    position: fixed;
-    top: 0;
-    left: 0;
-    min-height: 100%;
-    width: 100%;
-    z-index:-1;
-    background-image: url('https://miro.medium.com/max/3840/1*s9pTH7fpkN2SUCHSGG-HXQ.jpeg');
-    background-size: cover;
-    opacity: 0.5;
+  content: "";
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-height: 100%;
+  width: 100%;
+  z-index: -1;
+  background-image: url("https://miro.medium.com/max/3840/1*s9pTH7fpkN2SUCHSGG-HXQ.jpeg");
+  background-size: cover;
+  opacity: 0.5;
 }
 
 .navbar {
@@ -64,19 +64,19 @@ html::before {
 
 button {
   padding: 10px 20px;
-  background: #F76C6C;
+  background: #f76c6c;
   color: #fff;
-  border:1px solid #ffffff;
+  border: 1px solid #ffffff;
   border-radius: 10px;
 }
 
 .pink-bg {
-  background-color: #7ACD66;
+  background-color: #7acd66;
   opacity: 0.9;
 }
 
 .pink-text {
-  color: #7ACD66;
+  color: #7acd66;
 }
 
 .purple-text {
@@ -91,7 +91,7 @@ button {
   word-spacing: 4px;
 }
 
-.description>h2 {
+.description > h2 {
   color: #ffffff;
 }
 
@@ -143,13 +143,6 @@ button {
   padding: 0;
 }
 
-.heading {
-  /* margin-top: 30px; */
-  color: #fff;
-  background: #7ACD66;
-  padding: 10px;
-}
-
 .contents {
   display: flex;
   flex-wrap: wrap;
@@ -189,7 +182,8 @@ img {
   height: 50px;
 }
 
-.scrum, .back {
+.scrum,
+.back {
   max-width: 40%;
 }
 
@@ -199,6 +193,18 @@ img {
 
 .heading {
   text-align: center;
+  background-color: #7acd66;
+  color: #fff;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.heading p {
+  color: #000;
+}
+
+.buttonCv {
+  display: none;
 }
 
 p {
@@ -213,7 +219,10 @@ input {
 }
 
 @media screen and (min-width: 200px) and (max-width: 700px) {
-  .desktopImg, #responsiveImg, .presentation {
+
+  .desktopImg,
+  #responsiveImg,
+  .presentation {
     display: none;
   }
 
@@ -228,4 +237,22 @@ input {
   .box {
     width: auto;
   }
+
+  .cv {
+    width: 100%;
+    border: none;
+    background-color: red;
+  }
+
+  .buttonCv {
+    font-weight: bold;
+    background-color: #7acd66;
+    color: white !important;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    padding: 18px 50px;
+    border-radius: 10px;
+    display: inline-block;
+  }
+  
 }

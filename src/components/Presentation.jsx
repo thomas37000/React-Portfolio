@@ -54,7 +54,7 @@ const Presentation = () => {
       <section className="presentation" id="ancrePresentation">
         <div className="description pink-bg">
           <h2>
-            Bonjour, Je suis <span>Thomas</span>.
+            Disponible pour un stage de 4 mois à partir du 15 février 2021
           </h2>
           <p>
             Web Développeur Junior en Javascript / React actuellement étudiant à
