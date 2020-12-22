@@ -6,6 +6,7 @@ import scrum from "./image/scrum.png";
 const Skills = () => {
   return (
     <div className="skills" id="ancreSkills">
+
       <div className="column">
         <figure className="skill">
           <img src={back} alt="frontend" className="back" />

@@ -14,10 +14,11 @@ const Main = () => {
         <Presentation />
         <Skills />
         <Projects />
-
+        
         <h2 id="ancreCv">Mon CV</h2>
         <iframe title="cv" src={Cv} width="60%" height="600px" className="cv"></iframe>
         {/* <a href="Thomas Chalanson Cv.pdf" download="Thomas Chalanson Cv.pdf" target="blank" class="buttonCv">Télécharger mon CV</a> */}
+
 
         <ScrollUpButton
           style={{

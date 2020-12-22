@@ -4,12 +4,14 @@ import "./App.css";
 import Main from "./components/Main";
 import Nav from "./components/Nav";
 
+
 function App() {
   return (
     <div className="App">
       <Nav />
       <Main />
-      <footer className="App-footer" id="ancreContact">
+  
+      <footer className="App-footer">
         Des questions, envoyez moi un email à :
         <p>
           <a href="thomas.chalanson@sfr.fr">thomas.chalanson@sfr.fr</a> /
