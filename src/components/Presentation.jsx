@@ -3,6 +3,7 @@ import React from "react";
 import desktop from "./image/desktop.svg";
 import github from "./image/github.png";
 import linkedin from "./image/linkedin.jpg";
+import Thomas from "./image/moi.jpeg";
 
 const avatar = document.getElementById("avatar");
 const modal = document.getElementById("modal");
@@ -18,7 +19,7 @@ const Presentation = () => {
           alt="Thomas Chalanson"
           className="desktopImg"
           id="avatar"
-          src="https://media-exp1.licdn.com/dms/image/C5603AQE4kIQAravJWw/profile-displayphoto-shrink_200_200/0?e=1608768000&v=beta&t=9bsCtzxzS3v5AnDpE7vv-J3m-cGUAoBirrry8vjPpYA"
+          src={Thomas}
         />
         <div className="githubLinks">
           <a href="https://github.com/thomas37000">

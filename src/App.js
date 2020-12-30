@@ -11,7 +11,7 @@ function App() {
       <Nav />
       <Main />
   
-      <footer className="App-footer">
+      <footer className="App-footer" id="ancreContact">
         Des questions, envoyez moi un email à :
         <p>
           <a href="thomas.chalanson@sfr.fr">thomas.chalanson@sfr.fr</a> /

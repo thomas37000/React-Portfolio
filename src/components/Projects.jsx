@@ -43,9 +43,9 @@ const Projects = () => {
               className="disabled"
               href="https://data.nantesmetropole.fr/api/records/1.0/search/?dataset=244400404_agenda-evenements-nantes-nantes-metropole&q=&facet=emetteur&facet=rubrique&facet=lieu&facet=ville&facet=lieu_quartier"
             >
-              l' Api des événements de Nantes
+              l' Api des événements de Nantes{" "} 
             </a>
-            l' Api des événements de Nantes pour récupérer les données et les
+            pour récupérer les données et les
             afficher.{" "}
           </p>
 
