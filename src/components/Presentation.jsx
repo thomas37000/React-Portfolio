@@ -5,9 +5,6 @@ import github from "./image/github.png";
 import linkedin from "./image/linkedin.jpg";
 import Thomas from "./image/moi.jpeg";
 
-const avatar = document.getElementById("avatar");
-const modal = document.getElementById("modal");
-
 const Presentation = () => {
   return (
     <>
